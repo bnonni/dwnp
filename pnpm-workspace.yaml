@@ -1,0 +1,4 @@
+packages:
+  - packages/dwnpm
+  - packages/dwnpr
+  - packages/common
