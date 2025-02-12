@@ -2,9 +2,6 @@
   "name": "@dwnprm/registry",
   "version": "1.0.0",
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
   "description": "Decentralized Web Node Package Registry (DWNPR) ",
   "homepage": "https://github.com/bnonni/dwnprm",
   "bugs": {
