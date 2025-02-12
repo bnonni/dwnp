@@ -1,12 +1,12 @@
 import './exts.js';
 
-export * from './cli/commands/connect.js';
-export * from './cli/commands/context.js';
-export * from './cli/commands/dwn.js';
-export * from './cli/commands/package.js';
-export * from './cli/commands/profile.js';
-export * from './cli/commands/registry.js';
-export * from './cli/commands/setup.js';
+export * from './c/cli/connect.js';
+export * from './c/cli/context.js';
+export * from './c/cli/dwn.js';
+export * from './c/cli/package.js';
+export * from './c/cli/profile.js';
+export * from './c/cli/registry.js';
+export * from './c/cli/setup.js';
 
 export * from './lib/utils/dht.js';
 export * from './lib/profile.js';

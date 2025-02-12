@@ -1,4 +1,4 @@
-import { DPR } from './index.js';
+import { DPR } from './dwnpr.js';
 
 const server = new DPR();
 
