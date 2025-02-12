@@ -3,13 +3,28 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Decentralized Web Node Package Manager (DWNPM)",
-  "homepage": "https://github.com/bnonni/dwnprm/tree/main/packages/manager",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "bin": {
+    "dwnpm": "./dist/cli/dwnpm.js",
+    "create-dpk": "./dist/cli/create-dpk.js",
+    "init-dpk": "./dist/cli/init-dpk.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "homepage": "https://github.com/bnonni/dwnp/tree/main/packages/manager",
   "bugs": {
-    "url": "https://github.com/bnonni/dwnprm/issues"
+    "url": "https://github.com/bnonni/dwnp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bnonni/dwnprm.git"
+    "url": "git+ssh://git@github.com/bnonni/dwnp.git"
   },
   "license": "UNLICENSED",
   "contributors": [
