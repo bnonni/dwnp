@@ -5,7 +5,7 @@ import { DRPM_REGISTRY_URL } from '../config.js';
 import { Logger } from '../utils/logger.js';
 import handlers from './handlers.js';
 
-class DecentralizedPackageRegistry {
+class DecentralizedRegistry {
   private app: Express;
   private server?: http.Server;
   private port: number | string;

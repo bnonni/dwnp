@@ -2,7 +2,7 @@
 import { Package } from '../../../../src/lib/package.js';
 // import { Profile } from '../../lib/profile.js';
 import { Logger } from '../../../../src/utils/logger.js';
-import { ICommand } from '../drpm.js';
+import { ICommand } from '../dpm.js';
 import { DRegistryPackageManagerError } from './error.js';
 
 export class PackageCommand implements ICommand {

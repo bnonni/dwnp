@@ -1,4 +1,4 @@
 packages:
-  - packages/dwnpm
-  - packages/dwnpr
+  - packages/manager
+  - packages/registry
   - packages/common

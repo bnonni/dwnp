@@ -5,21 +5,17 @@
       "path": "."
     },
     {
-      "name": "applicant",
-      "path": "packages/applicant"
-    },
-    {
       "name": "common",
       "path": "packages/common"
     },
     {
-      "name": "issuer",
-      "path": "packages/issuer"
+      "name": "registry",
+      "path": "packages/registry"
     },
     {
-      "name": "server",
-      "path": "packages/server"
-    }
+      "name": "manager",
+      "path": "packages/manager"
+    },
   ],
   "settings": {
     "eslint.workingDirectories": [

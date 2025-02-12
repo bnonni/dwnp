@@ -1,6 +1,6 @@
 {
-  "name": "@dwnprm/root",
-  "version": "5.1.0",
+  "name": "dwnp",
+  "version": "1.0.0",
   "type": "module",
   "workspaces": [
     "packages/*"
@@ -85,12 +85,12 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.7",
-    "@npmcli/package-json": "^5.2.0",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@changesets/cli": "^2.27.12",
+    "@npmcli/package-json": "^6.1.1",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
     "audit-ci": "^7.1.0",
     "eslint-plugin-mocha": "^10.5.0",
-    "globals": "^15.9.0",
+    "globals": "^15.11.0",
     "npkill": "^0.12.2"
   },
   "dependencies": {
